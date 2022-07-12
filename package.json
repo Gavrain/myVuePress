@@ -1,0 +1,8 @@
+{
+  "name": "myVuePress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Gavrain/myVuePress.git",
+  "author": "Gavrain <393033152@qq.com>",
+  "license": "MIT"
+}
