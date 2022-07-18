@@ -1,8 +1,15 @@
 {
-  "name": "myVuePress",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/Gavrain/myVuePress.git",
-  "author": "Gavrain <393033152@qq.com>",
-  "license": "MIT"
+	"name": "my-vuepress",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "https://github.com/Gavrain/myVuePress.git",
+	"author": "Gavrain <393033152@qq.com>",
+	"license": "MIT",
+	"devDependencies": {
+		"vuepress": "^2.0.0-beta.49"
+	},
+	"scripts": {
+		"docs:dev": "vuepress dev docs",
+		"docs:build": "vuepress build docs"
+	}
 }
